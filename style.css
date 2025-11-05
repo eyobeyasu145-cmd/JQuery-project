@@ -5,6 +5,8 @@
   font-size: 30px;
   background-color:cadetblue;
   width: 300px;
+  height: 200px;
+
   position: relative;
 }
 
@@ -15,7 +17,15 @@
   font-size: 30x;
   background-color:rgb(134, 139, 139);
   width: 300px;
+  height: 200px;
   position: relative;
   border : 3px black dotted;
   
+}
+#div3 li{
+    list-style: none;
+
+}
+div p{
+  text-shadow: 3px 3px 5px rgb(72, 15, 226);
 }
