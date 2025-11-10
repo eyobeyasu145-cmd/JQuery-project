@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jQuery example</title>
+   <style>
+   #numInput, #msg{
+        padding: 15px;
+    border-radius: 10px;
+       background-color: white;
+         text-align: center;
+         box-shadow: 0px 2px 5px 
+   }
+   </style>
+   <link rel="stylesheet" href="exam.css">
+</head>
+<body>  
+  
+  <div class="deplist">
+<h1> Departmet List</h1>
+
+  <ul>
+      <li class="cs"><a> Computer science </a></li>
+      <li id = "it"><a> Information Technology </a></li>
+      <li class="se"><a>  Software Engineerng</a></li>
+     </ul>
+     <input type="text" id="numInput" placeholder="Type department code...">
+     <p id="msg"></p>
+  <button id="dduBtn"> click me to add department</button>
+  </div>
+    
+
+</body><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="dep.js" type="text/javascript"></script>
+</html>
